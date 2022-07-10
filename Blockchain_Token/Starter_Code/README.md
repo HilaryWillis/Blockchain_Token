@@ -200,3 +200,29 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
     * When sending ether to the contract, make sure that you meet the contract’s `goal`. Then, finalize the sale using the `Crowdsale` contract's `finalize` function. To finalize the sale, `isOpen` must return false (`isOpen` comes from `TimedCrowdsale` and checks to see whether the `close` time has passed yet). If you set the `goal` to 300 ether, for example, you may need to purchase tokens from multiple accounts in order to meet the goal. If you run out of pre-funded accounts in Ganache, you can create a new workspace.
 
     * View your tokens in MetaMask. In MetaMask, click Add Token, then click Custom Token,  and enter the token contract’s address. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallet as more than a few wei worth.
+
+### Evaluation Evidence
+
+![contract1](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Account_1.png)
+
+![compiled token](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Compiled_KaseiCoin.png)
+
+![compiled Crowdsale](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Compiled_KaseiCoinCrowdsale.png)
+
+![compiled_deployer](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Compiled_Deployer.png)
+
+![Deployed_deployer](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Deployed_Deployed.png)
+
+![Deployed_deployer 2](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Deployed_Deployed2.png)
+
+![contract addresses](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Contract_Addresses.png)
+
+![contract call](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Contract_call.png)
+
+![transaction record Ganache](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Transaction_record1.png)
+
+![token buy](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Token_Buy.png)
+
+![token buy2](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Token_buy2.png)
+
+![Records from Buy](https://github.com/HilaryWillis/Blockchain_Token/blob/main/Blockchain_Token/Starter_Code/Screenshots_Recordings/Records_from_buy.png)
